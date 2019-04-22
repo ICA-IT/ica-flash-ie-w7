@@ -1,0 +1,29 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: ica-flash-ie-w7
+name: Adobe Flash Player 28 ActiveX
+description: Adobe Flash Player 28 ActiveX
+advice: 
+version: 28.0.0.161
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.opsiscript
+uninstallScript: uninstall.opsiscript
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+ica-flash-ie-w7 (28.0.0.161-1) stable; urgency=low
+
+	* initial: created by opsi-setup-detector
+
+ -- opsisetupdetector.exe <info@uib.de>  2/16/2018 19:46:23
+
